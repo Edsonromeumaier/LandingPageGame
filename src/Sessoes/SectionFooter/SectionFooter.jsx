@@ -1,12 +1,39 @@
-import React from "react";
+
 import Insta from  '../../assets/images/instagram.svg';
 import Face from '../../assets/images/facebook.svg';
+import Vector from '../../assets/images/Vector.svg'
+import Group from '../../assets/images/Group.svg'
 
-function Footere () {
+function Footerr () {
     return(
-<>
-<footer className="page-footer font-small blue pt-4">
-<div className="container-fluid text-center text-md-left">
+<footer className="page-footer blue pt-4">
+  <div>
+    <div className="card-body">
+    <h5 className="card-title">Baixe nosso App</h5>
+    <p className="card-text">Você pode usar nosso aplicativo para uma melhor experiência em smartphones</p>
+    <a href="#" className="btn btn-primary">Go somewhere</a>
+    </div>
+    <div className="row">
+  <div className="col-sm-6">
+    <div className="card">
+      <div className="card-body">
+      <img src={Vector}/>
+      <h3>App Store</h3>
+      </div>
+    </div>
+  </div>
+  <div className="col-sm-6">
+    <div className="card">
+      <div className="card-body">
+      <img src={Group}/>
+      <h3>Google Play</h3>
+      </div>
+    </div>
+  </div>
+    </div>
+  </div>
+
+  <div className="container-fluid text-center text-md-left">
     <div className="row">
         <div className="col-md-6 mt-3">            
             <h5 className="text-uppercase mb-3">Links Rápidos</h5>
@@ -50,10 +77,9 @@ function Footere () {
             </form>
         </div>
     </div>
-</div>
+  </div>
 </footer>
-</>
     );
 }
 
-export default Footere
+export default Footerr
