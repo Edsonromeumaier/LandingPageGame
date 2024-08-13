@@ -13,7 +13,7 @@ function Footerr () {
     <p className="fw-bolder lh-lg">Você pode usar nosso aplicativo para uma melhor experiência em smartphones</p>    
     </div>
     
-    <div className="row gap-4 m-4 gap-md-0">
+    <div className="d-flex justify-content-center row gap-4 m-4 gap-md-0">
     <div className="col-sm-6">
         <div className="card">
         <div className=" d-flex justify-content-center align-items-center gap-3 card-body  bg-dark rounded">
@@ -35,46 +35,42 @@ function Footerr () {
 
   <div className="container-fluid text-center text-md-left bg-info">
     <div className="row">
-        <div className="col-md-6 mt-3">            
-            <h5 className="text-uppercase mb-3">Links Rápidos</h5>
+        <div className="col-md-6 mt-4">            
+            <h5 className="text-uppercase mb-3 mt-4"style={{ color: '#DA722C' }}>Links Rápidos</h5>
             <ul className=" list-group">
-                <li className="list-group-item border-0"><a className='text-decoration-none' href="#!">Fale Conosco</a></li>
-                <li className="list-group-item border-0"><a className='text-decoration-none' href="#!">Quem somos</a></li>
-                <li className="list-group-item border-0"><a className='text-decoration-none' href="#!">Política de privacidade</a></li>                
-                <li className="list-group-item border-0"><a className='text-decoration-none' href="#!">Termos e Condições</a></li>
+                <li className="list-group-item border-0 bg-info"><a className='text-decoration-none text-white' href="#!">Fale Conosco</a></li>
+                <li className="list-group-item border-0 bg-info"><a className='text-decoration-none text-white' href="#!">Quem somos</a></li>
+                <li className="list-group-item border-0 bg-info"><a className='text-decoration-none text-white' href="#!">Política de privacidade</a></li>                
+                <li className="list-group-item border-0 bg-info"><a className='text-decoration-none text-white' href="#!">Termos e Condições</a></li>
             </ul>
         </div>
-        <div className="col-md-3 mb-md-0 mb-3 mt-3">
-            <h5 className="text-uppercase mb-3">Curso</h5>
+        <div className="col-md-6 mb-md-0 mb-3 mt-3">
+            <h5 className="text-uppercase mb-3 mt-4"style={{ color:'#DA722C' }}>Curso</h5>
             <ul className="list-group">
-                <li className="list-group-item border-0"><a href="#!">Login</a></li>
-                <li className="list-group-item border-0"><a href="#!">Download</a></li>
-                <li className="list-group-item border-0"><a href="#!">Todos os cursos</a></li>                
+                <li className="list-group-item border-0 bg-info"><a className='text-decoration-none text-white' href="#!">Login</a></li>
+                <li className="list-group-item border-0 bg-info"><a className='text-decoration-none text-white' href="#!">Download</a></li>
+                <li className="list-group-item border-0 bg-info"><a className='text-decoration-none text-white' href="#!">Todos os cursos</a></li>                
             </ul>
         </div> 
-        <div className="col-md-3 mb-md-0 mb-3 mt-3">
-            <h5 className="text-uppercase mb-3">Contato</h5>
+        <div className="col-md-6 mb-md-0 mb-3 mt-3">
+            <h5 className="mb-3 mt-4" style={{ color: '#DA722C' }}>CONTATO</h5>
             <ul className="list-unstyled list-group">
-                <li className="list-group-item border-0"><a href="#!">Contato@gmail.comv</a></li>
+                <li className="list-group-item border-0 bg-info"><a className='text-decoration-none  text-white' href="#!">Contato@gmail.comv</a></li>
             </ul>
-                <form>
-            <div className="mb-3">
-                <label htmlFor="exampleInputEmail1" className="form-label">Tentativa de acessibilidade</label>
-                <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
-                <div id="emailHelp" className="form-text"> We'll never share your email with anyone else.</div>
-            </div>
-            <div className="mb-3">
             <div className="text-center">
-                <img src={Insta} className="rounded" alt="icone do instagram"/>
-                <img src={Face} className="rounded" alt="icone do facebook"/>
+                <img src={Insta} className="rounded m-3" alt="icone do instagram"/>
+                <img src={Face} className="rounded m-3" alt="icone do facebook"/>
             </div>
-            </div>
-            <div className="mb-3 form-check">
-                <input type="checkbox" className="form-check-input" id="exampleCheck1"/>
-                <label className="form-check-label" htmlFor="exampleCheck1">Tentativa de acessibilidade</label>
-            </div>
-            <button type="submit" className="btn btn-primary">Submit</button>
+            <form>
+                <div className="mb-3">
+                <label htmlFor="exampleInputEmail1" className="form-label" aria-label="Campo de entrada para o e-mail de usuário"></label>
+                <input type="email" className="form-control"/>
+                <small id="emailHelp" className="form-text text-muted">Por favor, insira seu endereço de email.</small>
+                </div>
+                <button type="submit" className="btn btn-primary">Submit</button>
             </form>
+            <div className="mb-3">
+          </div>
         </div>
     </div>
   </div>
@@ -83,3 +79,4 @@ function Footerr () {
 }
 
 export default Footerr
+
