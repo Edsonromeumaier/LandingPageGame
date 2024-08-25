@@ -3,11 +3,11 @@ import Insta from  '../../assets/images/instagram.svg'
 import Face from '../../assets/images/facebook.svg'
 import Vector from '../../assets/images/Vector.svg'
 import Group from '../../assets/images/Group.svg'
-import '../../Sessoes/SectionFooter/SectionFooter.css'
+
 function Footerr () {
     return(
 <footer className="page-footer blue pt-4">
-  <div className="text-center">
+  <div className="container text-center">
     <div className="row card-body gap-4 m-4 gap-md-0">
     <h5 className="mt-4 fs-2 fw-bold lh-lg">Baixe nosso App</h5>
     <p className="fw-bolder lh-lg">Você pode usar nosso aplicativo para uma melhor experiência em smartphones</p>    
@@ -33,29 +33,29 @@ function Footerr () {
     </div>
   </div>
 
-  <div className="container-fluid text-center text-md-left bg-info">
+  <div className="container-fluid text-center text-md-left" style={{'background-color':'#070917'}}>
     <div className="row">
         <div className="col-md-6 mt-4">            
             <h5 className="text-uppercase mb-3 mt-4"style={{ color: '#DA722C' }}>Links Rápidos</h5>
-            <ul className=" list-group">
-                <li className="list-group-item border-0 bg-info"><a className='text-decoration-none text-white' href="#!">Fale Conosco</a></li>
-                <li className="list-group-item border-0 bg-info"><a className='text-decoration-none text-white' href="#!">Quem somos</a></li>
-                <li className="list-group-item border-0 bg-info"><a className='text-decoration-none text-white' href="#!">Política de privacidade</a></li>                
-                <li className="list-group-item border-0 bg-info"><a className='text-decoration-none text-white' href="#!">Termos e Condições</a></li>
+            <ul className="list-group" style={{'background-color':'#070917'}}>
+                <li className="list-group-item border-0" style={{'background-color':'#070917'}} > <a className='text-decoration-none text-white' href="#!">Fale Conosco</a></li>
+                <li className="list-group-item border-0" style={{'background-color':'#070917'}}> <a className='text-decoration-none text-white' href="#!">Quem somos</a></li>
+                <li className="list-group-item border-0" style={{'background-color':'#070917'}}> <a className='text-decoration-none text-white' href="#!">Política de privacidade</a></li>                
+                <li className="list-group-item border-0" style={{'background-color':'#070917'}}> <a className='text-decoration-none text-white' href="#!">Termos e Condições</a></li>
             </ul>
         </div>
         <div className="col-md-6 mb-md-0 mb-3 mt-3">
             <h5 className="text-uppercase mb-3 mt-4"style={{ color:'#DA722C' }}>Curso</h5>
             <ul className="list-group">
-                <li className="list-group-item border-0 bg-info"><a className='text-decoration-none text-white' href="#!">Login</a></li>
-                <li className="list-group-item border-0 bg-info"><a className='text-decoration-none text-white' href="#!">Download</a></li>
-                <li className="list-group-item border-0 bg-info"><a className='text-decoration-none text-white' href="#!">Todos os cursos</a></li>                
+                <li className="list-group-item border-0" style={{'background-color':'#070917'}}><a className='text-decoration-none text-white' href="#!">Login</a></li>
+                <li className="list-group-item border-0" style={{'background-color':'#070917'}}><a className='text-decoration-none text-white' href="#!">Download</a></li>
+                <li className="list-group-item border-0" style={{'background-color':'#070917'}}><a className='text-decoration-none text-white' href="#!">Todos os cursos</a></li>                
             </ul>
         </div> 
         <div className="col-md-6 mb-md-0 mb-3 mt-3">
-            <h5 className="mb-3 mt-4" style={{ color: '#DA722C' }}>CONTATO</h5>
+            <h5 className="mb-3 mt-4" style={{ 'color': '#DA722C' }}>CONTATO</h5>
             <ul className="list-unstyled list-group">
-                <li className="list-group-item border-0 bg-info"><a className='text-decoration-none  text-white' href="#!">Contato@gmail.comv</a></li>
+                <li className="list-group-item border-0" style={{'background-color':'#070917'}}><a className='text-decoration-none  text-white' href="#!">Contato@gmail.comv</a></li>
             </ul>
             <div className="text-center">
                 <img src={Insta} className="rounded m-3" alt="icone do instagram"/>

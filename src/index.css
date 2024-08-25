@@ -3,8 +3,9 @@
 @import "style";
 @import "bootstrap/scss/bootstrap.scss";
 
-:root {  
+*{  
   border: 0;
+  box-sizing: border-box;
 }
 
 body{
